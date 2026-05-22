@@ -90,6 +90,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2E23542FC0A77E001237F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE2E23552FC0A788001237F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE897B9F2FBC1330005BF2A6 /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE2E23562FC0A78E001237F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CE2E23582FC0A809001237F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE897BA12FBC1331005BF2A6 /* Main.storyboard */,
+				CE897BA42FBC1340005BF2A6 /* Assets.xcassets */,
+				CE897BA62FBC1340005BF2A6 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		CE897B8F2FBC132F005BF2A6 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +146,12 @@
 		CE897B9A2FBC1330005BF2A6 /* quanlysach */ = {
 			isa = PBXGroup;
 			children = (
+				CE2E23582FC0A809001237F8 /* Resources */,
+				CE2E23562FC0A78E001237F8 /* Controllers */,
+				CE2E23552FC0A788001237F8 /* Views */,
+				CE2E23542FC0A77E001237F8 /* Models */,
 				CE897B9B2FBC1330005BF2A6 /* AppDelegate.swift */,
 				CE897B9D2FBC1330005BF2A6 /* SceneDelegate.swift */,
-				CE897B9F2FBC1330005BF2A6 /* ViewController.swift */,
-				CE897BA12FBC1331005BF2A6 /* Main.storyboard */,
-				CE897BA42FBC1340005BF2A6 /* Assets.xcassets */,
-				CE897BA62FBC1340005BF2A6 /* LaunchScreen.storyboard */,
 				CE897BA92FBC1340005BF2A6 /* Info.plist */,
 			);
 			path = quanlysach;
