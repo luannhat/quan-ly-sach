@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2E235A2FC0AB46001237F8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E23592FC0AB46001237F8 /* Book.swift */; };
+		CE2E235C2FC0ABF6001237F8 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E235B2FC0ABF6001237F8 /* BookViewController.swift */; };
+		CE82FE712FC348AF00C1C556 /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82FE702FC348AF00C1C556 /* BookController.swift */; };
 		CE897B9C2FBC1330005BF2A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE897B9B2FBC1330005BF2A6 /* AppDelegate.swift */; };
 		CE897B9E2FBC1330005BF2A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE897B9D2FBC1330005BF2A6 /* SceneDelegate.swift */; };
 		CE897BA02FBC1330005BF2A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE897B9F2FBC1330005BF2A6 /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2E23592FC0AB46001237F8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CE2E235B2FC0ABF6001237F8 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		CE82FE702FC348AF00C1C556 /* BookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookController.swift; sourceTree = "<group>"; };
 		CE897B982FBC1330005BF2A6 /* quanlysach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quanlysach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE897B9B2FBC1330005BF2A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE897B9D2FBC1330005BF2A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,9 +96,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE17FC362FC31614007E994D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE82FE702FC348AF00C1C556 /* BookController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		CE2E23542FC0A77E001237F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CE2E23592FC0AB46001237F8 /* Book.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -101,15 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				CE897B9F2FBC1330005BF2A6 /* ViewController.swift */,
+				CE2E235B2FC0ABF6001237F8 /* BookViewController.swift */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		CE2E23562FC0A78E001237F8 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Controllers;
 			sourceTree = "<group>";
 		};
 		CE2E23582FC0A809001237F8 /* Resources */ = {
@@ -146,8 +155,8 @@
 		CE897B9A2FBC1330005BF2A6 /* quanlysach */ = {
 			isa = PBXGroup;
 			children = (
+				CE17FC362FC31614007E994D /* Controllers */,
 				CE2E23582FC0A809001237F8 /* Resources */,
-				CE2E23562FC0A78E001237F8 /* Controllers */,
 				CE2E23552FC0A788001237F8 /* Views */,
 				CE2E23542FC0A77E001237F8 /* Models */,
 				CE897B9B2FBC1330005BF2A6 /* AppDelegate.swift */,
@@ -317,7 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE82FE712FC348AF00C1C556 /* BookController.swift in Sources */,
+				CE2E235A2FC0AB46001237F8 /* Book.swift in Sources */,
 				CE897BA02FBC1330005BF2A6 /* ViewController.swift in Sources */,
+				CE2E235C2FC0ABF6001237F8 /* BookViewController.swift in Sources */,
 				CE897B9C2FBC1330005BF2A6 /* AppDelegate.swift in Sources */,
 				CE897B9E2FBC1330005BF2A6 /* SceneDelegate.swift in Sources */,
 			);
