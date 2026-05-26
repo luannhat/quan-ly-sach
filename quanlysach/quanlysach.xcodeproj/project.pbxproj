@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CE0468342FC52CC100282842 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0468332FC52CC100282842 /* LoginViewController.swift */; };
+		CE0468382FC5364D00282842 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0468372FC5364D00282842 /* LoginController.swift */; };
+		CE04683A2FC5365E00282842 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0468392FC5365E00282842 /* RegisterController.swift */; };
+		CE04683C2FC5367F00282842 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04683B2FC5367F00282842 /* RegisterViewController.swift */; };
 		CE82FE732FC34D0B00C1C556 /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82FE722FC34D0B00C1C556 /* BookController.swift */; };
 		CE82FE752FC34D3A00C1C556 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82FE742FC34D3A00C1C556 /* BookViewController.swift */; };
 		CE82FE772FC34D4E00C1C556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82FE762FC34D4E00C1C556 /* ViewController.swift */; };
@@ -48,6 +51,9 @@
 
 /* Begin PBXFileReference section */
 		CE0468332FC52CC100282842 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE0468372FC5364D00282842 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CE0468392FC5365E00282842 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		CE04683B2FC5367F00282842 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CE82FE722FC34D0B00C1C556 /* BookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookController.swift; path = Controllers/BookController.swift; sourceTree = "<group>"; };
 		CE82FE742FC34D3A00C1C556 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookViewController.swift; path = Views/BookViewController.swift; sourceTree = "<group>"; };
 		CE82FE762FC34D4E00C1C556 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Views/ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				CE82FE722FC34D0B00C1C556 /* BookController.swift */,
+				CE0468372FC5364D00282842 /* LoginController.swift */,
+				CE0468392FC5365E00282842 /* RegisterController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -120,6 +128,7 @@
 				CE82FE762FC34D4E00C1C556 /* ViewController.swift */,
 				CE82FE742FC34D3A00C1C556 /* BookViewController.swift */,
 				CE0468332FC52CC100282842 /* LoginViewController.swift */,
+				CE04683B2FC5367F00282842 /* RegisterViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -330,12 +339,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0468342FC52CC100282842 /* LoginViewController.swift in Sources */,
+				CE04683C2FC5367F00282842 /* RegisterViewController.swift in Sources */,
 				CE82FE772FC34D4E00C1C556 /* ViewController.swift in Sources */,
 				CE82FE732FC34D0B00C1C556 /* BookController.swift in Sources */,
 				CE82FE792FC34D6200C1C556 /* Book.swift in Sources */,
 				CE82FE752FC34D3A00C1C556 /* BookViewController.swift in Sources */,
+				CE0468382FC5364D00282842 /* LoginController.swift in Sources */,
 				CE897B9C2FBC1330005BF2A6 /* AppDelegate.swift in Sources */,
 				CE897B9E2FBC1330005BF2A6 /* SceneDelegate.swift in Sources */,
+				CE04683A2FC5365E00282842 /* RegisterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
