@@ -32,6 +32,7 @@
 		CE897BD82FBC1D6F005BF2A6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE897BD72FBC1D6F005BF2A6 /* FirebaseFirestore */; };
 		CE897BDA2FBC1D6F005BF2A6 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = CE897BD92FBC1D6F005BF2A6 /* FirebaseFunctions */; };
 		CE897BDC2FBC1D70005BF2A6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CE897BDB2FBC1D70005BF2A6 /* FirebaseStorage */; };
+		CEA999B82FC8389A00C3F56E /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA999B72FC8389A00C3F56E /* AddBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		CE897BBC2FBC1343005BF2A6 /* quanlysachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quanlysachUITests.swift; sourceTree = "<group>"; };
 		CE897BBE2FBC1343005BF2A6 /* quanlysachUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quanlysachUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CE897BCD2FBC1A34005BF2A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEA999B72FC8389A00C3F56E /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				CE82FE762FC34D4E00C1C556 /* ViewController.swift */,
 				CE82FE742FC34D3A00C1C556 /* BookViewController.swift */,
 				CE04683D2FC5374700282842 /* File.swift */,
+				CEA999B72FC8389A00C3F56E /* AddBookViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				CE04684A2FC5392E00282842 /* LoginController.swift in Sources */,
 				CE0468442FC538F700282842 /* RegisterViewController.swift in Sources */,
 				CE0468482FC5392100282842 /* Login.swift in Sources */,
+				CEA999B82FC8389A00C3F56E /* AddBookViewController.swift in Sources */,
 				CE82FE772FC34D4E00C1C556 /* ViewController.swift in Sources */,
 				CE82FE732FC34D0B00C1C556 /* BookController.swift in Sources */,
 				CE82FE792FC34D6200C1C556 /* Book.swift in Sources */,
