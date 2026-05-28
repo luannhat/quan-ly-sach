@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF4F53492FC85AA200DB6391 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F53482FC85AA200DB6391 /* CartViewController.swift */; };
+		BFD8DEEF2FC84C880063FAE3 /* CreateOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8DEEE2FC84C860063FAE3 /* CreateOrderViewController.swift */; };
 		CE04683E2FC5374700282842 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04683D2FC5374700282842 /* File.swift */; };
 		CE0468422FC538E600282842 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0468412FC538E600282842 /* LoginViewController.swift */; };
 		CE0468442FC538F700282842 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0468432FC538F700282842 /* RegisterViewController.swift */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF4F53482FC85AA200DB6391 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		BFD8DEEE2FC84C860063FAE3 /* CreateOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderViewController.swift; sourceTree = "<group>"; };
 		CE04683D2FC5374700282842 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = Views/File.swift; sourceTree = "<group>"; };
 		CE0468412FC538E600282842 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Views/LoginViewController.swift; sourceTree = "<group>"; };
 		CE0468432FC538F700282842 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = Views/RegisterViewController.swift; sourceTree = "<group>"; };
@@ -132,12 +136,14 @@
 		CE2E23552FC0A788001237F8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BFD8DEEE2FC84C860063FAE3 /* CreateOrderViewController.swift */,
 				CE0468432FC538F700282842 /* RegisterViewController.swift */,
 				CE0468412FC538E600282842 /* LoginViewController.swift */,
 				CE82FE762FC34D4E00C1C556 /* ViewController.swift */,
 				CE82FE742FC34D3A00C1C556 /* BookViewController.swift */,
 				CE04683D2FC5374700282842 /* File.swift */,
 				CEA999B72FC8389A00C3F56E /* AddBookViewController.swift */,
+				BF4F53482FC85AA200DB6391 /* CartViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -354,8 +360,10 @@
 				CE82FE772FC34D4E00C1C556 /* ViewController.swift in Sources */,
 				CE82FE732FC34D0B00C1C556 /* BookController.swift in Sources */,
 				CE82FE792FC34D6200C1C556 /* Book.swift in Sources */,
+				BF4F53492FC85AA200DB6391 /* CartViewController.swift in Sources */,
 				CE82FE752FC34D3A00C1C556 /* BookViewController.swift in Sources */,
 				CE0468422FC538E600282842 /* LoginViewController.swift in Sources */,
+				BFD8DEEF2FC84C880063FAE3 /* CreateOrderViewController.swift in Sources */,
 				CE04684C2FC5393700282842 /* RegisterController.swift in Sources */,
 				CE897B9C2FBC1330005BF2A6 /* AppDelegate.swift in Sources */,
 				CE897B9E2FBC1330005BF2A6 /* SceneDelegate.swift in Sources */,
